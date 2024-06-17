@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0cb0dcc7cfaabf62c27ede2c61a7916e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0cb0dcc7cfaabf62c27ede2c61a7916e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0cb0dcc7cfaabf62c27ede2c61a7916e = L.map(
+                "map_0cb0dcc7cfaabf62c27ede2c61a7916e",
+                {
+                    center: [35.43057154571769, 139.38236346549488],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9ffd284ef1b5a34f991c4901493683c9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9ffd284ef1b5a34f991c4901493683c9.addTo(map_0cb0dcc7cfaabf62c27ede2c61a7916e);
+        
+    
+            var marker_b25ec261a3fb51be0937cc739349d842 = L.marker(
+                [35.43057154571769, 139.38236346549488],
+                {}
+            ).addTo(map_0cb0dcc7cfaabf62c27ede2c61a7916e);
+        
+    
+        var popup_5f2741fbedb8d26ff62735f7f7ca94f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcca0684a3bfe3e0a93885784a84469a = $(`<div id="html_bcca0684a3bfe3e0a93885784a84469a" style="width: 100.0%; height: 100.0%;"><div style="width:350px"></div></div>`)[0];
+                popup_5f2741fbedb8d26ff62735f7f7ca94f6.setContent(html_bcca0684a3bfe3e0a93885784a84469a);
+            
+        
+
+        marker_b25ec261a3fb51be0937cc739349d842.bindPopup(popup_5f2741fbedb8d26ff62735f7f7ca94f6)
+        ;
+
+        
+    
+    
+            marker_b25ec261a3fb51be0937cc739349d842.bindTooltip(
+                `<div>
+                     エホバの証人日本支部
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71631bf1ef585332f6eeeab99b2a5a43 = L.marker(
+                [35.68310472007252, 139.71928546151167],
+                {}
+            ).addTo(map_0cb0dcc7cfaabf62c27ede2c61a7916e);
+        
+    
+        var popup_96ad8245ca6c373fd8bfe896fec6a395 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31cbe3a6d6a31b05e55dfe92f5843858 = $(`<div id="html_31cbe3a6d6a31b05e55dfe92f5843858" style="width: 100.0%; height: 100.0%;"><div style="width:350px"></div></div>`)[0];
+                popup_96ad8245ca6c373fd8bfe896fec6a395.setContent(html_31cbe3a6d6a31b05e55dfe92f5843858);
+            
+        
+
+        marker_71631bf1ef585332f6eeeab99b2a5a43.bindPopup(popup_96ad8245ca6c373fd8bfe896fec6a395)
+        ;
+
+        
+    
+    
+            marker_71631bf1ef585332f6eeeab99b2a5a43.bindTooltip(
+                `<div>
+                     創価学会本部
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87fc46beff62a129b34a8f59632ec07b = L.marker(
+                [35.62924438280277, 139.72701274846872],
+                {}
+            ).addTo(map_0cb0dcc7cfaabf62c27ede2c61a7916e);
+        
+    
+        var popup_03e408488c9c58289ccc38a2bf7b2a3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e59d75950f43ad2f6a89b9c29f12092 = $(`<div id="html_6e59d75950f43ad2f6a89b9c29f12092" style="width: 100.0%; height: 100.0%;"><div style="width:350px"></div></div>`)[0];
+                popup_03e408488c9c58289ccc38a2bf7b2a3b.setContent(html_6e59d75950f43ad2f6a89b9c29f12092);
+            
+        
+
+        marker_87fc46beff62a129b34a8f59632ec07b.bindPopup(popup_03e408488c9c58289ccc38a2bf7b2a3b)
+        ;
+
+        
+    
+    
+            marker_87fc46beff62a129b34a8f59632ec07b.bindTooltip(
+                `<div>
+                     幸福の科学総合本部
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35e850eda3aba4d2b00518d0708a8fa4 = L.marker(
+                [35.67069597274692, 139.59869595125608],
+                {}
+            ).addTo(map_0cb0dcc7cfaabf62c27ede2c61a7916e);
+        
+    
+        var popup_9eda4ce95173ea7823227ea02ff0fd32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2399bcc237ae1e85a92ccb9071b3a4da = $(`<div id="html_2399bcc237ae1e85a92ccb9071b3a4da" style="width: 100.0%; height: 100.0%;"><div style="width:350px"></div></div>`)[0];
+                popup_9eda4ce95173ea7823227ea02ff0fd32.setContent(html_2399bcc237ae1e85a92ccb9071b3a4da);
+            
+        
+
+        marker_35e850eda3aba4d2b00518d0708a8fa4.bindPopup(popup_9eda4ce95173ea7823227ea02ff0fd32)
+        ;
+
+        
+    
+    
+            marker_35e850eda3aba4d2b00518d0708a8fa4.bindTooltip(
+                `<div>
+                     ひかりの輪本拠地
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a962efe69cc77200fc1ef4172b1304e = L.marker(
+                [35.66255695257837, 139.69446682536042],
+                {}
+            ).addTo(map_0cb0dcc7cfaabf62c27ede2c61a7916e);
+        
+    
+        var popup_f09200cf33ee89887e44ca33788e6df8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33fe013bca2418514af87f661139ab43 = $(`<div id="html_33fe013bca2418514af87f661139ab43" style="width: 100.0%; height: 100.0%;"><div style="width:350px"></div></div>`)[0];
+                popup_f09200cf33ee89887e44ca33788e6df8.setContent(html_33fe013bca2418514af87f661139ab43);
+            
+        
+
+        marker_0a962efe69cc77200fc1ef4172b1304e.bindPopup(popup_f09200cf33ee89887e44ca33788e6df8)
+        ;
+
+        
+    
+    
+            marker_0a962efe69cc77200fc1ef4172b1304e.bindTooltip(
+                `<div>
+                     世界平和統一家庭連合
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3432345cdf33f847905578f628960796 = L.marker(
+                [35.70995642741232, 139.79652442903625],
+                {}
+            ).addTo(map_0cb0dcc7cfaabf62c27ede2c61a7916e);
+        
+    
+        var popup_4c02a5aeedb7e3d7dd3d240b9565cbbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87748f062400f060535ca4c8a1e3c5b9 = $(`<div id="html_87748f062400f060535ca4c8a1e3c5b9" style="width: 100.0%; height: 100.0%;"><div style="width:350px"></div></div>`)[0];
+                popup_4c02a5aeedb7e3d7dd3d240b9565cbbf.setContent(html_87748f062400f060535ca4c8a1e3c5b9);
+            
+        
+
+        marker_3432345cdf33f847905578f628960796.bindPopup(popup_4c02a5aeedb7e3d7dd3d240b9565cbbf)
+        ;
+
+        
+    
+    
+            marker_3432345cdf33f847905578f628960796.bindTooltip(
+                `<div>
+                     GLA総合本部
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06420f8f8a66a7f39523702135a40d4b = L.marker(
+                [34.6023850811172, 135.84320113600123],
+                {}
+            ).addTo(map_0cb0dcc7cfaabf62c27ede2c61a7916e);
+        
+    
+        var popup_eb2e7add5a12ab7b9624235283bbf319 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e1b4b04ccf4012534c90149bea20428 = $(`<div id="html_4e1b4b04ccf4012534c90149bea20428" style="width: 100.0%; height: 100.0%;"><div style="width:350px"></div></div>`)[0];
+                popup_eb2e7add5a12ab7b9624235283bbf319.setContent(html_4e1b4b04ccf4012534c90149bea20428);
+            
+        
+
+        marker_06420f8f8a66a7f39523702135a40d4b.bindPopup(popup_eb2e7add5a12ab7b9624235283bbf319)
+        ;
+
+        
+    
+    
+            marker_06420f8f8a66a7f39523702135a40d4b.bindTooltip(
+                `<div>
+                     天理教本部
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c8b0a04b834d01463d9c198e89288c2 = L.marker(
+                [35.01288179889608, 135.5814757597322],
+                {}
+            ).addTo(map_0cb0dcc7cfaabf62c27ede2c61a7916e);
+        
+    
+        var popup_7a610ea2ba705762eb3188a3c75d4901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cf5c2b42d4797613e6cd179895c9a69 = $(`<div id="html_0cf5c2b42d4797613e6cd179895c9a69" style="width: 100.0%; height: 100.0%;"><div style="width:350px"></div></div>`)[0];
+                popup_7a610ea2ba705762eb3188a3c75d4901.setContent(html_0cf5c2b42d4797613e6cd179895c9a69);
+            
+        
+
+        marker_2c8b0a04b834d01463d9c198e89288c2.bindPopup(popup_7a610ea2ba705762eb3188a3c75d4901)
+        ;
+
+        
+    
+    
+            marker_2c8b0a04b834d01463d9c198e89288c2.bindTooltip(
+                `<div>
+                     大本本部
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
